@@ -1,0 +1,450 @@
+local Translations = {
+    ["NOL | Forsken"] = "NOL | 被遗弃",
+    ["Announcements & Group"] = "公告与群组",
+    ["Esp"] = "透视",
+    ["Adverse effect"] = "反效果",
+    ["Aim"] = "瞄准",
+    ["Miscellaneous & Bypas"] = "杂项与绕过",
+    ["Roles & Battles"] = "角色与战斗",
+    ["Repair & Spending"] = "修复与消耗",
+    ["Strength & Speed"] = "力量与速度",
+    ["UI Commissioning"] = "界面调试",
+    ["Name Esp"] = "名称透视",
+    ["Enable Name Esp"] = "启用名称透视",
+    ["Esp Name of survivor"] = "幸存者名称透视",
+    ["Esp Name of Killer"] = "杀手名称透视",
+    ["Esp Distance"] = "透视距离",
+    ["HitBoxTracking"] = "命中框追踪",
+    ["Show HitBox"] = "显示命中框",
+    ["Scope of tracking"] = "追踪范围",
+    ["Filter survivors"] = "过滤幸存者",
+    ["Filter Killer"] = "过滤杀手",
+    ["VeeronicaAutomatic skateboard jump"] = "维罗妮卡自动滑板跳",
+    ["Automatic jump"] = "自动跳跃",
+    ["Type of equipment"] = "装备类型",
+    ["Slide Movement Control"] = "滑动移动控制",
+    ["Lock Viewing Angle"] = "锁定视角",
+    ["Automatic Fury"] = "自动狂暴",
+    ["Slasher"] = "斩击者",
+    ["Rage Trigger Distance"] = "狂暴触发距离",
+    ["block"] = "格挡",
+    ["Boxing"] = "拳击",
+    ["Automatic blocking"] = "自动格挡",
+    ["Blocking distance"] = "格挡距离",
+    ["Angle detection"] = "角度检测",
+    ["Blocking angle"] = "格挡角度",
+    ["Visualization"] = "可视化",
+    ["Cardy"] = "糖果",
+    ["ESPCandy"] = "糖果透视",
+    ["Automatic candy collection"] = "自动收集糖果",
+    ["Show chat box"] = "显示聊天框",
+    ["one game"] = "单局游戏",
+    ["BypassAnti Cheat"] = "绕过反作弊",
+    ["Anti Cheat"] = "反作弊",
+    ["Brightness"] = "亮度",
+    ["No Shadows"] = "无阴影",
+    ["No fog"] = "无雾",
+    ["Enable"] = "启用",
+    ["Flying"] = "飞行",
+    ["Safe not kicked out"] = "安全不被踢出",
+    ["Fly speed"] = "飞行速度",
+    ["Noli Self-aiming"] = "Noli自瞄",
+    ["Maximum self-aiming distance"] = "最大自瞄距离",
+    ["Self-aiming lock time"] = "自瞄锁定时间",
+    ["Steering smoothness"] = "转向平滑度",
+    ["Self-aiming of starburst bomb"] = "星爆弹自瞄",
+    ["Void Sprint Self-Aim"] = "虚空冲刺自瞄",
+    ["Opportunity prejudgment self-aiming"] = "机会预判自瞄",
+    ["Shoot and aim"] = "射击瞄准",
+    ["Predictive coefficient"] = "预判系数",
+    ["Dousekar Silent Aim"] = "杜塞卡无声瞄准",
+    ["Silent aiming"] = "无声瞄准",
+    ["Eliminate Killer"] = "排除杀手",
+    ["排除幸存者"] = "排除幸存者",
+    ["Aiming distance"] = "瞄准距离",
+    ["Universal"] = "通用",
+    ["Anti-underground space bomb effect"] = "反地下空间炸弹效果",
+    ["Anti-blindness"] = "反致盲",
+    ["Reverse slowness"] = "反转缓慢",
+    ["vertigo"] = "眩晕",
+    ["NoliAdverse effect"] = "Noli反效果",
+    ["Anti-falseNoli"] = "反虚假Noli",
+    ["Noli Ignore obstacles"] = "Noli无视障碍",
+    ["Guest Adverse effect"] = "访客反效果",
+    ["Effect after reverse sprint"] = "反转冲刺后效果",
+    ["1x4Adverse effect"] = "1x4反效果",
+    ["Execution interval"] = "执行间隔",
+    ["Rebound window"] = "反弹窗口",
+    ["NOOB Adverse effect"] = "NOOB反效果",
+    ["reverse Noob Slab speed"] = "反转Noob石板速度",
+    ["News"] = "新闻",
+    ["Group"] = "群组",
+    ["Dev Yuxingchen"] = "开发者 宇星辰",
+    ["Support is our greatest motivation"] = "支持是我们最大的动力",
+    ["Looking forward to our script"] = "期待我们的脚本",
+    ["Copy qq group number"] = "复制QQ群号",
+    ["master group"] = "主群",
+    ["group 2"] = "群2",
+    ["three groups"] = "三群",
+    ["Motor esp"] = "摩托车透视",
+    ["Esp Motor"] = "透视摩托车",
+    ["Noli Motor to be delivered"] = "Noli摩托车待交付",
+    ["items Esp"] = "物品透视",
+    ["Killer Summons Esp"] = "杀手召唤物透视",
+    ["Taff tripwire Esp"] = "绊线透视",
+    ["Esp John Doe Trap"] = "透视约翰多陷阱",
+    ["Esp Dummy007n7"] = "透视假人007n7",
+    ["Taff space bomb Esp"] = "空间炸弹透视",
+    ["Medical kit Esp"] = "医疗包透视",
+    ["coke Esp"] = "可乐透视",
+    ["Underground Space Bomb Generation Prompt"] = "地下空间炸弹生成提示",
+    ["Entity generation tips"] = "实体生成提示",
+    ["Highlight"] = "高亮",
+    ["Enable Esp"] = "启用透视",
+    ["Refresh Highlight"] = "刷新高亮",
+    ["Auto Refresh"] = "自动刷新",
+    ["Refresh Rate"] = "刷新率",
+    ["Esp Survivor"] = "透视幸存者",
+    ["Esp Killer"] = "透视杀手",
+    ["Fill Transparency"] = "填充透明度",
+    ["Edge Transparency"] = "边缘透明度",
+    ["Blood volume Esp"] = "血量透视",
+    ["Esp Survivor Blood Volume"] = "透视幸存者血量",
+    ["Esp Killer Blood Volume"] = "透视杀手血量",
+    ["Physical Strength Settings"] = "体力设置",
+    ["Unlimited physical strength"] = "无限体力",
+    ["Enable Strength Adjustment"] = "启用力量调整",
+    ["Enable Strength Recovery Adjustment"] = "启用力量恢复调整",
+    ["Enable Physical Expenditure Adjustment"] = "启用体力消耗调整",
+    ["Enable running speed adjustment"] = "启奔跑速度调整",
+    ["Debug Settings"] = "调试设置",
+    ["Infinite physical recovery speed"] = "无限体力恢复速度",
+    ["Maximum physical strength"] = "最大体力",
+    ["Speed of physical recovery"] = "体力恢复速度",
+    ["Speed of physical exertion"] = "体力消耗速度",
+    ["Running speed"] = "奔跑速度",
+    ["Automatic boxing"] = "自动拳击",
+    ["Self-aiming distance"] = "自瞄距离",
+    ["Locking strength"] = "锁定强度",
+    ["Lock Time"] = "锁定时间",
+    ["Guest aimbot"] = "访客自瞄",
+    ["Automatic wire repair"] = "自动线修复",
+    ["Enable Auto Connect"] = "启用自动连接",
+    ["Connection speed"] = "连接速度",
+    ["Conveyor repair"] = "传送带修复",
+    ["Danger"] = "危险",
+    ["To generator"] = "前往发电机",
+    ["Automatic generator farm"] = "自动发电机农场",
+    ["Switch Server"] = "切换服务器",
+    ["Switching server"] = "正在切换服务器",
+    ["Menu"] = "菜单",
+    ["Open Keybind Menu"] = "打开按键绑定菜单",
+    ["Custom Cursor"] = "自定义光标",
+    ["Notification Side"] = "通知位置",
+    ["Right"] = "右侧",
+    ["DPI Scale"] = "DPI缩放",
+    ["100%"] = "100%",
+    ["Menu bind"] = "菜单绑定",
+    ["RightControl"] = "右Ctrl键",
+    ["Unload"] = "卸载",
+    ["Configuration"] = "配置",
+    ["Config name"] = "配置名称",
+    ["Create config"] = "创建配置",
+    ["Config list"] = "配置列表",
+    ["Load config"] = "加载配置",
+    ["Overwrite config"] = "覆盖配置",
+    ["Delete config"] = "删除配置",
+    ["Set as autoload"] = "设为自动加载",
+    ["Reset autoload"] = "重置自动加载",
+    ["Current autoload config"] = "当前自动加载配置",
+    ["none"] = "无",
+    ["Themes"] = "主题",
+    ["Background color"] = "背景颜色",
+    ["Main color"] = "主颜色",
+    ["Accent color"] = "强调色",
+    ["Outline color"] = "轮廓颜色",
+    ["Font color"] = "字体颜色",
+    ["Font Face"] = "字体样式",
+    ["Code"] = "代码",
+    ["Theme list"] = "主题列表",
+    ["Default"] = "默认",
+    ["Set as default"] = "设为默认",
+    ["Custom theme name"] = "自定义主题名称",
+    ["Create theme"] = "创建主题",
+    ["Custom themes"] = "自定义主题",
+    ["Load theme"] = "加载主题",
+    ["Overwrite theme"] = "覆盖主题",
+    ["Delete theme"] = "删除主题",
+    ["Refresh list"] = "刷新列表",
+    ["Reset default"] = "重置默认",
+    ["Start"] = "开始",
+    ["Player"] = "玩家",
+    ["Misc"] = "杂项",
+    ["Visuals"] = "视觉",
+    ["Entities"] = "实体",
+    ["Credits"] = "鸣谢",
+    ["Addons"] = "附加组件",
+    ["UI Settings"] = "界面设置",
+    ["Cheats"] = "作弊",
+    ["Auto Hide V2"] = "自动隐藏 V2",
+    ["Auto Hide Mode"] = "自动隐藏模式",
+    ["Safety"] = "安全",
+    ["Prediction Times"] = "预判时间",
+    ["Distance Multiplier"] = "距离倍率",
+    ["1x"] = "1x",
+    ["No Cutscenes"] = "无过场动画",
+    ["Infinite Crucifix"] = "无限十字架",
+    ["Infinite Items"] = "无限物品",
+    ["Door Reach"] = "门距离",
+    ["Auto Minecart Push"] = "自动推矿车",
+    ["Instant Interact"] = "即时交互",
+    ["Auto Interact"] = "自动交互",
+    ["Auto Interact Distances"] = "自动交互距离",
+    ["studs"] = "单位",
+    ["Interaction Boost"] = "交互加速",
+    ["The Hotel"] = "酒店",
+    ["Anti Jam"] = "防卡住",
+    ["Death Farm V2"] = "刷死亡数 V2",
+    ["Fun"] = "娱乐",
+    ["Enable Star Rift"] = "启用星之裂痕",
+    ["Get Glitch Cube"] = "获得故障方块",
+    ["Get NVCS-3000"] = "获得NVCS-3000",
+    ["spreedrun timer"] = "速通计时器",
+    ["actually not that fun stuff"] = "其实不是那么有趣的东西",
+    ["Revive"] = "复活",
+    ["Reset Character"] = "重置角色",
+    ["Lobby"] = "大厅",
+    ["Play Again"] = "再次游玩",
+    ["Battlemode"] = "战斗模式",
+    ["Auto Pickup Throwables"] = "自动拾取投掷物",
+    ["Auto Break Door"] = "自动破门",
+    ["Auto Pickup"] = "自动拾取",
+    ["Auto Fire"] = "自动开火",
+    ["Welcome"] = "欢迎",
+    ["Status"] = "状态",
+    ["Total Executions"] = "总执行次数",
+    ["Goldmode"] = "金模式",
+    ["Toggle"] = "切换",
+    ["Goldmode Toggle"] = "金模式切换",
+    ["Movement"] = "移动",
+    ["Always Can Jump"] = "始终可跳跃",
+    ["Fly"] = "飞行",
+    ["Noclip"] = "穿墙",
+    ["Faster Ladder Climb"] = "快速爬梯",
+    ["Anti-Cheat Manipulation"] = "反作弊操纵",
+    ["Ladder Climb Speed"] = "爬梯速度",
+    ["Fly Speed"] = "飞行速度",
+    ["WalkSpeed"] = "行走速度",
+    ["Speed Bypass"] = "速度绕过",
+    ["Inactive"] = "未激活",
+    ["Custom Walk Speed"] = "自定义行走速度",
+    ["Instant Acceleration"] = "即时加速",
+    ["Walk Speed Value"] = "行走速度值",
+    ["Bypass"] = "绕过",
+    ["Disable Anti Cheat"] = "禁用反作弊",
+    ["Anticheat Bypass"] = "反作弊绕过",
+    ["Automation"] = "自动化",
+    ["Anchor Code Solver"] = "锚点代码解析",
+    ["Anti AFK"] = "防挂机",
+    ["Solve Breaker Minigame"] = "完成断路器",
+    ["Solve Library Code"] = "完成图书馆代码",
+    ["Beat Door 200"] = "击败门200",
+    ["codimode"] = "代码模式",
+    ["Automatic"] = "自动",
+    ["Hold"] = "按住",
+    ["Always"] = "始终",
+    ["ESP Settings"] = "透视设置",
+    ["Enable Tracers"] = "启用轨迹线",
+    ["Enable Arrows"] = "启用箭头",
+    ["ESP Type"] = "透视类型",
+    ["Object ESP"] = "物体透视",
+    ["Door ESP"] = "门透视",
+    ["Objective ESP"] = "目标透视",
+    ["Coin ESP"] = "硬币透视",
+    ["Mines Generator ESP"] = "矿井发电机透视",
+    ["Lever ESP"] = "杠杆透视",
+    ["Item ESP"] = "物品透视",
+    ["Closet ESP"] = "柜子透视",
+    ["Anchor ESP"] = "锚点透视",
+    ["Library Book ESP"] = "图书馆书籍透视",
+    ["Chest ESP"] = "宝箱透视",
+    ["Entity ESP"] = "实体透视",
+    ["Seek ESP"] = "Seek透视",
+    ["Figure ESP"] = "Figure透视",
+    ["Ambush ESP"] = "Ambush透视",
+    ["Rush ESP"] = "Rush透视",
+    ["Snare ESP"] = "Snare透视",
+    ["Giggle ESP"] = "Giggle透视",
+    ["Eyestalk ESP"] = "Eyestalk透视",
+    ["Mandrake ESP"] = "Mandrake透视",
+    ["Groundskeeper ESP"] = "管理员透视",
+    ["Blitz ESP"] = "Blitz透视",
+    ["No Camera Shake"] = "无镜头抖动",
+    ["No Head Bob"] = "无视角晃动",
+    ["Fullbright"] = "全亮",
+    ["Transparent Closet"] = "透明柜子",
+    ["Haste Timer"] = "快速计时器",
+    ["No Seek Flood Damage"] = "无Seek洪水伤害",
+    ["Seek Bridge Cover"] = "Seek追逐防断桥",
+    ["Seek Path"] = "Seek路径",
+    ["Auto Rooms"] = "自动房间",
+    ["Avoid A-90"] = "反A-90",
+    ["April Fools 2023"] = "2023愚人节",
+    ["Anti Banana"] = "防香蕉",
+    ["Anti Jeff"] = "防Jeff",
+    ["Effects"] = "效果",
+    ["Anti Void Effect"] = "反虚空效果",
+    ["Anti Haste Effects"] = "反急速效果",
+    ["Anti Firedamp"] = "反沼气",
+    ["Anti Mines Atmosphere"] = "反矿井大气",
+    ["Anti Oxygen/Sanity Effects"] = "反氧气/理智效果",
+    ["Third Person View"] = "第三人称视角",
+    ["Third Person Distance"] = "第三人称距离",
+    ["Third Person Side Offset"] = "第三人称侧偏移",
+    ["Third Person Height Offset"] = "第三人称高度偏移",
+    ["Field of View"] = "视野",
+    ["Menu Settings"] = "菜单设置",
+    ["Show Menu"] = "显示菜单",
+    ["End"] = "结束",
+    ["Unload Menu"] = "卸载菜单",
+    ["Appearance"] = "外观",
+    ["Show Keybinds Frame"] = "显示按键绑定框",
+    ["Velocity X Team"] = "Velocity X 团队",
+    ["Owner & Lead Developer"] = "所有者 & 主开发者",
+    ["Velocity"] = "Velocity",
+    ["Developer"] = "开发者",
+    ["thehuntersolo1"] = "thehuntersolo1",
+    ["Special Thanks"] = "特别感谢",
+    ["koekis2, lekkie2"] = "koekis2, lekkie2",
+    ["Community Contributors"] = "社区贡献者",
+    ["Jack"] = "Jack",
+    ["ESP Library"] = "透视库",
+    ["mstudio45 esp library"] = "mstudio45 透视库",
+    ["NVCS-3000"] = "NVCS-3000",
+    ["made by Upio"] = "由Upio制作",
+    ["About Velocity X"] = "关于 Velocity X",
+    ["Version"] = "版本",
+    ["Last Update"] = "最后更新",
+    ["euro"] = "欧洲",
+    ["Join Our Community"] = "加入我们的社区",
+    ["WARNING"] = "警告",
+    ["Dont download random addons, check if they are safe."] = "不要下载随机附加组件，检查它们是否安全。",
+    ["Addons"] = "附加组件",
+    ["Entity Notifications"] = "实体通知",
+    ["Notify on Entity Spawn"] = "实体生成时通知",
+    ["Avoid Entities"] = "反实体",
+    ["Avoid Screech"] = "反Screech",
+    ["Anti Gloom Eggs"] = "反Gloom Eggs",
+    ["Avoid Dread"] = "反Dread",
+    ["Anti Giggle"] = "反Giggle",
+    ["Avoid Hiding Edges"] = "反Hiding Edges",
+    ["Avoid Figure hearing"] = "反Figure hearing",
+    ["Avoid Surge"] = "反Surge",
+    ["Avoid Lookman"] = "反Lookman",
+    ["Avoid Snare"] = "反Snare",
+    ["Avoid Seek Obstacles"] = "反Seek Obstacles",
+    ["Avoid Dupe"] = "反Dupe",
+    ["Avoid Vacuum"] = "反Vacuum",
+    ["Avoid Eyes"] = "反Eyes",
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    if Translations[text] then return Translations[text] end
+    for en, cn in pairs(Translations) do
+        if text:find(en) then return text:gsub(en, cn) end
+    end
+    return text
+end
+
+local translatedElements = {}
+local originalTexts = {}
+
+local function safeTranslateElement(element)
+    if translatedElements[element] then return end
+    
+    pcall(function()
+        if element:IsA("TextLabel") or element:IsA("TextButton") or element:IsA("TextBox") then
+            local currentText = element.Text
+            if currentText and currentText ~= "" then
+                if not originalTexts[element] then
+                    originalTexts[element] = currentText
+                end
+                
+                local translatedText = translateText(currentText)
+                if translatedText ~= currentText then
+                    element.Text = translatedText
+                    translatedElements[element] = true
+                end
+            end
+        end
+    end)
+end
+
+local function setupSmartListener()
+    local function onTextPropertyChanged(element)
+        if translatedElements[element] then
+            local currentText = element.Text
+            local originalText = originalTexts[element]
+            
+            if currentText == originalText or translateText(currentText) == currentText then
+                translatedElements[element] = nil
+                return
+            end
+            
+            local translatedText = translateText(currentText)
+            if translatedText ~= currentText then
+                element.Text = translatedText
+            end
+        else
+            safeTranslateElement(element)
+        end
+    end
+
+    local function addSmartListener(parent)
+        parent.DescendantAdded:Connect(function(descendant)
+            task.wait(0.3)
+            safeTranslateElement(descendant)
+            
+            if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                descendant:GetPropertyChangedSignal("Text"):Connect(function()
+                    task.wait(0.1)
+                    onTextPropertyChanged(descendant)
+                end)
+            end
+        end)
+    end
+    
+    pcall(addSmartListener, game:GetService("CoreGui"))
+    local player = game:GetService("Players").LocalPlayer
+    if player and player:FindFirstChild("PlayerGui") then
+        pcall(addSmartListener, player.PlayerGui)
+    end
+end
+
+local function delayedInitialTranslate()
+    task.wait(5)
+    
+    for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+        safeTranslateElement(gui)
+    end
+    
+    local player = game:GetService("Players").LocalPlayer
+    if player and player:FindFirstChild("PlayerGui") then
+        for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+            safeTranslateElement(gui)
+        end
+    end
+end
+
+task.wait(2)
+setupSmartListener()
+delayedInitialTranslate()
+
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Potato5466794/Nolsaken/refs/heads/main/Loader/Loader.luau", true))()
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
