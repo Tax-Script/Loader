@@ -1,0 +1,298 @@
+local Translations = {
+    ["Supa Tech"] = "Supa技术",
+    ["Dash in them"] = "在他们之间冲刺",
+    ["Enable Feature"] = "启用功能",
+    ["Helper"] = "助手",
+    ["Use this to headtab"] = "用于头部锁定",
+    ["Supa Delay (ms)"] = "Supa延迟(毫秒)",
+    ["Supa Speed (x10)"] = "Supa速度(x10)",
+    ["Hook Dash"] = "钩索冲刺",
+    ["Side dash like a pro !(V to choose target C to do hook dash, if ur mobile double tap on someone)"] = "像高手一样侧冲！(V选择目标 C进行钩冲，手机端双击目标)",
+    ["Enable Hook Dash"] = "启用钩索冲刺",
+    ["Target Color"] = "目标颜色",
+    ["Pick the highlight color"] = "选择高亮颜色",
+    ["Mobile Mode"] = "手机模式",
+    ["Show Highlight"] = "显示高亮",
+    ["Sorry !"] = "抱歉！",
+    ["Other configs will come in future updates !"] = "其他配置将在未来更新！",
+    ["Loop Dash"] = "循环冲刺",
+    ["Do a loop while dashing"] = "冲刺时进行循环",
+    ["Loop Delay"] = "循环延迟",
+    ["Loop Radius"] = "循环半径",
+    ["Supa"] = "Supa",
+    ["Hook Dash [Beta]"] = "钩索冲刺[测试]",
+    ["Loop Dash"] = "循环冲刺",
+    ["Loop Dash v2"] = "循环冲刺 v2",
+    ["Kitty Tech"] = "Kitty技术",
+    ["Kyoto Combo"] = "1+2",
+    ["Lethal Dash"] = "致命冲刺",
+    ["M1 Reset"] = "M1重置",
+    ["Instant Twisted"] = "瞬时扭转",
+    ["AutoBlock"] = "自动格挡",
+    ["Kiba"] = "牙",
+    ["Auto Counter"] = "自动防反",
+    ["HitboxAbuse"] = "攻击框利用",
+    ["Tech Helper"] = "技术助手",
+    ["Animations"] = "动画",
+    ["Utilities"] = "工具",
+    ["Settings"] = "设置",
+    ["Auto Kyoto tech!"] = "自动1+2技术！",
+    ["Flowing water into lethal"] = "流水转化为致命",
+    ["Auto Kyoto"] = "自动1+2",
+    ["Distance"] = "距离",
+    ["Delay"] = "延迟",
+    ["Auto Hunter Surf"] = "自动猎手冲浪",
+    ["Execute M1 Reset Script"] = "执行M1重置脚本",
+    ["No End Lag"] = "无结束延迟",
+    ["Lethal Dash"] = "致命冲刺",
+    ["Lethal water into a dash"] = "致命水流化为冲刺",
+    ["Enable LethalDash"] = "启用致命冲刺",
+    ["First flick delay"] = "首次轻弹延迟",
+    ["Smoothness"] = "平滑度",
+    ["Auto Lethal Dunk"] = "自动致命扣篮",
+    ["Loop Dash v2 / Rework"] = "循环冲刺 v2 / 重制版",
+    ["Just better loop dash, can also be used for oreo tech !"] = "更好的循环冲刺，也可用于奥利奥技术！",
+    ["LoopDash v2 Enabled"] = "启用循环冲刺 v2",
+    ["Jump Assist"] = "跳跃辅助",
+    ["Use this for oreo tech !"] = "用于奥利奥技术！",
+    ["Jump hight"] = "跳跃高度",
+    ["First Flick Delay"] = "首次轻弹延迟",
+    ["Kitty Tech"] = "Kitty技术",
+    ["Made by ItzSoph — credits to him! (W.I.P)"] = "由ItzSoph制作 — 感谢他！(开发中)",
+    ["Enable Kitty Tech"] = "启用Kitty技术",
+    ["Ping Preset"] = "Ping预设",
+    ["Custom Ping (ms)"] = "自定义Ping(毫秒)",
+    ["Kiba Tech"] = "牙技术",
+    ["uhh dash and look up...idk:3"] = "呃...冲刺然后向上看...不知道:3",
+    ["Enable Kiba Tech"] = "启用牙技术",
+    ["Instant Twisted"] = "瞬时扭转",
+    ["4ml into a dash"] = "4毫升化为冲刺",
+    ["Enable Instant Twisted"] = "启用瞬时扭转",
+    ["Normal twisted"] = "普通扭转",
+    ["Hitbox Abuse (M.I.P)"] = "攻击框利用(主要进行中)",
+    ["Side M.I [THIS ONLY WORKS FOR PC FOR NOW!]"] = "侧边M.I[目前仅适用于PC！]",
+    ["Enable"] = "启用",
+    ["Silent Lock"] = "静默锁定",
+    ["Simple Show Hitbox"] = "简单显示攻击框",
+    ["Hitbox Color"] = "攻击框颜色",
+    ["Pick a color for the hitbox outline"] = "选择攻击框轮廓颜色",
+    ["Angle (degrees)"] = "角度(度)",
+    ["Duration (ms)"] = "持续时间(毫秒)",
+    ["Delay (ms)"] = "延迟(毫秒)",
+    ["AutoBlock (W.I.P)"] = "自动格挡(开发中)",
+    ["Automatically blocks stuff — work in progress"] = "自动格挡东西 — 开发中",
+    ["Enable AutoBlock"] = "启用自动格挡",
+    ["M1 After Block"] = "格挡后M1",
+    ["Block Distance (studs)"] = "格挡距离(单位)",
+    ["Automatically counter attacks"] = "自动防反攻击",
+    ["Enable Feature"] = "启用功能",
+    ["Counter Distance"] = "防反距离",
+    ["Cosminc GAROU"] = "Cosminc 饿狼",
+    ["SONIC.EXE"] = "索尼克.EXE",
+    ["MADARA"] = "马达拉",
+    ["GoldenHead"] = "金色头",
+    ["GOJO moveset BEST"] = "GOJO 最佳招式",
+    ["MASTERY DEKU"] = "大师绿谷",
+    ["TRASHCAN"] = "垃圾桶",
+    ["helps with techs....duhh"] = "帮助技术...呃",
+    ["Tech Helper Delay (ms)"] = "技术助手延迟(毫秒)",
+    ["Tech Helper Hold (ms)"] = "技术助手按住(毫秒)",
+    ["Tech Helper Look Up"] = "技术助手向上看",
+    ["Tech Helper Lock Percentage"] = "技术助手锁定百分比",
+    ["Enable M1 Catch"] = "启用M1捕捉",
+    ["M1 Catch Range (studs)"] = "M1捕捉范围(单位)",
+    ["M1 Catch Hold (ms)"] = "M1捕捉按住(毫秒)",
+    ["Boldy To Sorcerer"] = "Boldy到巫师",
+    ["GAROU TO V1"] = "V1(饿狼)",
+    ["SUNG JIN WOO USE NINJA"] = "成镇宇使用忍者",
+    ["ATOMIC SAMOURAI TO VERGIL"] = "维吉尔(原子武士)",
+    ["JJS GOJO v3"] = "JJS GOJO v3",
+    ["GAROU TO KJ"] = "KJ(饿狼)",
+    ["MINOS PRIME"] = "米诺斯主",
+    ["ATOMIC TO YUTA"] = "忧太(原子)",
+    ["OKRAUN"] = "奥克朗",
+    ["TODO"] = "待办",
+    ["M1 Catch Prediction %"] = "M1捕捉预测%",
+    ["Fast Dash"] = "快速冲刺",
+    ["NOT COMPATIBLE WITH MOST FETURES"] = "与大多数功能不兼容",
+    ["Only Torso Collisions"] = "仅躯干碰撞",
+    ["Enable MouseDash"] = "启用鼠标冲刺",
+    ["MouseDash Delay (ms)"] = "鼠标冲刺延迟(毫秒)",
+    ["Blady To Mahito"] = "Blady到真人",
+    ["Apophenia V2 Education"] = "Apophenia V2 教育",
+    ["Atomic To Sukuna"] = "宿傩(原子)",
+    ["Kyra KJ"] = "凯拉KJ",
+    ["Kyra Gojo"] = "凯拉Gojo",
+    ["Luffy"] = "路飞",
+    ["Shinjin"] = "新人",
+    ["SUKUNA"] = "宿傩",
+    ["Sans"] = "杉斯",
+    ["StretchScreen"] = "拉伸屏幕",
+    ["Death Counter ESP"] = "死亡计数器ESP",
+    ["True Down Slam"] = "真实下砸",
+    ["Respawn at Death"] = "死亡时重生",
+    ["FPS Boost"] = "FPS提升",
+    ["Auto Jump(cuz why not)"] = "自动跳跃(为什么不呢)",
+    ["No Stun"] = "无眩晕",
+    ["No Slow"] = "无减速",
+    ["No Dash Coddown"] = "无冲刺冷却",
+    ["No Fatigue"] = "无疲劳",
+    ["Various utility features (QOF)"] = "各种实用功能(QOF)",
+    ["Shader Hub"] = "着色器中心",
+    ["VFX Color"] = "VFX颜色",
+    ["Pick a custom VFX color"] = "选择自定义VFX颜色",
+    ["Teleport"] = "传送",
+    ["Avatar Changer"] = "头像更换器",
+    ["User ID"] = "用户ID",
+    ["Force Avatar Change"] = "强制更换头像",
+    ["Headless Korblox"] = "无头科尔布洛克斯",
+    ["Star Glitcher (Euphoria)"] = "星星闪烁器(愉悦)",
+    ["A-Train"] = "A列车",
+    ["Shinjuku Yuji"] = "新宿悠仁",
+    ["Multiple moves"] = "多种招式",
+    ["Chainsaw Man"] = "链锯人",
+    ["ESP Color"] = "ESP颜色",
+    ["Show Boxes"] = "显示方框",
+    ["Show Names"] = "显示名字",
+    ["Show Tracers"] = "显示轨迹",
+    ["Show Health"] = "显示血量",
+    ["Highlight Players"] = "高亮玩家",
+    ["Player Counts"] = "玩家计数",
+    ["M2 Block"] = "M2格挡",
+    ["M1 Block (Compatible with M2 Block)"] = "M1格挡(兼容M2格挡)",
+    ["M1 Slide"] = "M1滑行",
+    ["Counter ESP"] = "防反ESP",
+    ["Highlight Color"] = "高亮颜色",
+    ["Color for Counter esp"] = "防反ESP颜色",
+    ["Block Indicator"] = "格挡指示器",
+    ["DashClip Enabled"] = "启用冲刺穿墙",
+    ["Noclip when dashing"] = "冲刺时穿墙",
+    ["Noclip Duration"] = "穿墙持续时间",
+    ["No Clip Players"] = "玩家穿墙",
+    ["ESP Shape"] = "ESP形状",
+    ["FOV"] = "视野",
+    ["Counter Toxic"] = "防反嘲讽",
+    ["Show Character"] = "显示角色",
+    ["Dash Timer"] = "冲刺计时器",
+    ["Save Config"] = "保存配置",
+    ["Load Config"] = "加载配置",
+    ["Customize Interface"] = "自定义界面",
+    ["Personalize your experience"] = "个性化您的体验",
+    ["Keybind"] = "快捷键",
+    ["Keybind to open ui"] = "打开UI的快捷键",
+    ["Select Theme"] = "选择主题",
+    ["Config Name"] = "配置名称",
+    ["All Configs"] = "所有配置",
+    ["Select existing configs"] = "选择现有配置",
+    ["Auto Load"] = "自动加载",
+    ["Auto Load Selected Config"] = "自动加载选定配置",
+    ["Emotes Extra Slots"] = "表情额外槽位",
+    ["Emotes Search Bar"] = "表情搜索栏",
+    ["Speed Boost"] = "速度提升",
+    ["Speed Value"] = "速度值",
+    ["Jump Boost"] = "跳跃提升",
+    ["Jump Height"] = "跳跃高度",
+    ["Gravity"] = "重力",
+    ["Auto Tech"] = "最强tech脚本 TAX汉化",
+}
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+    if Translations[text] then return Translations[text] end
+    for en, cn in pairs(Translations) do
+        if text:find(en) then return text:gsub(en, cn) end
+    end
+    return text
+end
+
+local translatedElements = {}
+local originalTexts = {}
+
+local function safeTranslateElement(element)
+    if translatedElements[element] then return end
+    
+    pcall(function()
+        if element:IsA("TextLabel") or element:IsA("TextButton") or element:IsA("TextBox") then
+            local currentText = element.Text
+            if currentText and currentText ~= "" then
+                if not originalTexts[element] then
+                    originalTexts[element] = currentText
+                end
+                
+                local translatedText = translateText(currentText)
+                if translatedText ~= currentText then
+                    element.Text = translatedText
+                    translatedElements[element] = true
+                end
+            end
+        end
+    end)
+end
+
+local function setupSmartListener()
+    local function onTextPropertyChanged(element)
+        if translatedElements[element] then
+            local currentText = element.Text
+            local originalText = originalTexts[element]
+            
+            if currentText == originalText or translateText(currentText) == currentText then
+                translatedElements[element] = nil
+                return
+            end
+            
+            local translatedText = translateText(currentText)
+            if translatedText ~= currentText then
+                element.Text = translatedText
+            end
+        else
+            safeTranslateElement(element)
+        end
+    end
+
+    local function addSmartListener(parent)
+        parent.DescendantAdded:Connect(function(descendant)
+            task.wait(0.3)
+            safeTranslateElement(descendant)
+            
+            if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                descendant:GetPropertyChangedSignal("Text"):Connect(function()
+                    task.wait(0.1)
+                    onTextPropertyChanged(descendant)
+                end)
+            end
+        end)
+    end
+    
+    pcall(addSmartListener, game:GetService("CoreGui"))
+    local player = game:GetService("Players").LocalPlayer
+    if player and player:FindFirstChild("PlayerGui") then
+        pcall(addSmartListener, player.PlayerGui)
+    end
+end
+
+local function delayedInitialTranslate()
+    task.wait(5)
+    
+    for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+        safeTranslateElement(gui)
+    end
+    
+    local player = game:GetService("Players").LocalPlayer
+    if player and player:FindFirstChild("PlayerGui") then
+        for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+            safeTranslateElement(gui)
+        end
+    end
+end
+
+task.wait(2)
+setupSmartListener()
+delayedInitialTranslate()
+
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/needanewphone32-eng/tsbfiles/refs/heads/main/Main1.lua"))()
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
